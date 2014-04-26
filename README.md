@@ -7,4 +7,4 @@ PHP Articles &amp; ZF2 Alum application
 
 2. За Album трябва да се добави модула 'Album' в ZendSkeletonApplication/config/application.config.php
 
-3. За AlbumTdg трябва да се добави модула 'AlbumTdg' в ZendSkeletonApplication/config/application.config.php
+3. AlbumTdg е опростена версия на Album Tutorial-a на Zend. За него трябва да се добави модула 'AlbumTdg' в ZendSkeletonApplication/config/application.config.php. Базата данни е същата като при Album.
