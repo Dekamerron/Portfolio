@@ -1,0 +1,14 @@
+<h1>Create Action</h1>
+
+<?php
+$form = $this->form;
+$form->prepare();
+
+$form->setAttribute('action', $this->url('album_tdg/default', array('controller' => 'album-tdg', 'action' => 'create')));
+
+$form->setAttribute('method', 'post');
+$formLabel = $this->plugin('formLabel');
+
+echo $this->form()->openTag($form);
+echo $this->formCollection($form);
+echo $this->form()->closeTag();
